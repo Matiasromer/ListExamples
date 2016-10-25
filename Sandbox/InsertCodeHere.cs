@@ -74,7 +74,7 @@ namespace Sandbox
             }
             Console.WriteLine($"Average shit er : {gennemsnit/count}" );
 
-            
+
 
 
             // [DIFFICULT]
@@ -82,6 +82,16 @@ namespace Sandbox
             // smallest element in the list, and prints the result
             // Tip: Think in detail about how you would do this manually
 
+            int lowestnumber = 1000;
+            foreach (int lin in aListOfInt)
+            { 
+                if (lin <= lowestnumber)
+                {
+                    lowestnumber = lin;
+                }
+            }
+            Console.WriteLine($"Ze lowest number is {lowestnumber}");
+           
 
 
 
